@@ -1,5 +1,7 @@
 # Social Media Management System
 
+> **100% Vibe-Coded** - Built entirely through intuitive development and AI collaboration
+
 A comprehensive command-line social media management system for X (Twitter), Instagram, and LinkedIn. Manage multiple social media accounts through a unified CLI interface, Claude Code skills, or a real-time terminal feed viewer.
 
 ## Features
@@ -366,6 +368,20 @@ The viewer auto-refreshes every 60 seconds and displays:
 - `r_liteprofile` - Read profile
 - `r_emailaddress` - Read email
 - `w_member_social` - Post content
+
+## Development Philosophy
+
+This project is **100% vibe-coded** - developed entirely through AI collaboration and intuitive programming. Every line of code, every feature, and every integration was created through natural conversation with Claude Code, demonstrating the power of AI-assisted development.
+
+### What is Vibe-Coding?
+
+Vibe-coding is a development methodology where you:
+- Describe what you want in natural language
+- Let AI understand the context and architecture
+- Collaborate iteratively to build features
+- Focus on the "vibe" and intent rather than implementation details
+
+This entire social media management system, including CLI tools, feed viewers, authentication flows, and Claude Code skills, was built without traditional manual coding - just pure collaboration with AI.
 
 ## Development
 
