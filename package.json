@@ -1,0 +1,54 @@
+{
+  "name": "halil-personal-agents",
+  "version": "1.0.0",
+  "description": "Comprehensive social media management system for X, Instagram, and LinkedIn",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "social-cli": "./dist/cli/index.js",
+    "social-watch": "./dist/viewer/watch.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node --esm src/cli/index.ts",
+    "watch": "tsc --watch",
+    "start": "node dist/cli/index.js",
+    "viewer": "node dist/viewer/index.js",
+    "viewer:watch": "node dist/viewer/watch.js",
+    "viewer:interactive": "node dist/viewer/interactive.js",
+    "auth:setup": "node dist/auth/setup.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "social-media",
+    "twitter",
+    "instagram",
+    "linkedin",
+    "cli",
+    "automation"
+  ],
+  "author": "Halil Agin",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^1.37.0",
+    "axios": "^1.6.0",
+    "canvas": "^3.2.1",
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.0",
+    "ink": "^4.4.0",
+    "ink-spinner": "^5.0.0",
+    "inquirer": "^9.2.0",
+    "open": "^10.0.0",
+    "react": "^18.2.0",
+    "twitter-api-v2": "^1.29.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.0",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.0",
+    "nodemon": "^3.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  }
+}
