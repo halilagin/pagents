@@ -1,0 +1,42 @@
+# Makefile for halil-personal-agents
+
+.PHONY: help build clean install quote-mentions
+
+help:
+	@echo "Available commands:"
+	@echo "  make build          - Build the TypeScript project"
+	@echo "  make clean          - Clean build artifacts"
+	@echo "  make install        - Install dependencies"
+	@echo "  make quote-mentions - Run quote-mentions tool (quotes replies with handles)"
+	@echo "  make viewer         - Run the social media feed viewer"
+	@echo "  make auth-setup     - Run authentication setup wizard"
+
+build:
+	npm run build
+
+clean:
+	npm run clean
+
+install:
+	npm install
+
+quote-mentions:
+	npm run quote-mentions
+
+viewer:
+	npm run viewer
+
+viewer-watch:
+	npm run viewer:watch
+
+viewer-interactive:
+	npm run viewer:interactive
+
+auth-setup:
+	npm run auth:setup
+
+# Development shortcuts
+dev-quote-mentions:
+	npm run quote-mentions:dev
+
+all: install build

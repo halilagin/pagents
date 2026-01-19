@@ -17,6 +17,8 @@
     "viewer:watch": "node dist/viewer/watch.js",
     "viewer:interactive": "node dist/viewer/interactive.js",
     "auth:setup": "node dist/auth/setup.js",
+    "quote-mentions": "node dist/cli/quote-mentions.js",
+    "quote-mentions:dev": "ts-node --esm src/cli/quote-mentions.ts",
     "clean": "rm -rf dist"
   },
   "keywords": [
